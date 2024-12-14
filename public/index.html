@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barbershop</title>
+</head>
+<body>
+    <h3 style="color: cadetblue;">Approximately 1 hour of coding + 30-40 min of error handling</h3>
+    <h2>Booking appointments</h1>
+    <form id='select-time'>
+        <input type="text" id="username-form1" required placeholder="Enter your username">
+        <input type="date" id="date" required>
+        <select id="time" required>
+            <option value="" disabled selected>Select a time</option>
+        </select>
+        <button type="submit" id="button-form1">Book appointment</button>
+    </form>
+
+    <h2>Searching appointments</h2>
+    <form id='user-appointment'>
+        <input type="text" id="username-form2" required placeholder="Enter your username">
+        <button type="submit" id="button-form2">search appointments</button>
+    </form>
+    <ul id="list-users"></ul>
+    <script src="./script.js"></script>
+</body>
+
+</html>
